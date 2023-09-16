@@ -7,13 +7,11 @@ weight: 2
 
 I'm Behzad Ehsani, a backend software engineer. I love learning new technologies and staying up to date with trends.
 
-## Experience
+## Work Experience
 
-- Software Engineer at Digikala, Tehran, Iran (Jan 2022 - Present)
-
-- Software engineer at PHINIX, Remote, Iran (Sep 2022 - Jan 2022)
-
-- Freelance Software Engineer, Remote, Iran (Mar 2019 - Sep 2022)
+#### Digikala (Software Engineer, Jan 2022 - Present)
+#### PHINIX (Software Engineer, Sep 2022 - Jan 2022)
+#### Freelance(Software engineer, Mar 2019 - Sep 2022)
 
 ## Education
 

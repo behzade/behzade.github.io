@@ -23,6 +23,6 @@ I'm Behzad Ehsani, a backend software engineer. I love learning new technologies
 
 ## Skills
 
-- Languages: Go, PHP, Python, Elixir, SQL
+- Languages: go, php, python, elixir, sql
 
-- Technologies: Mysql, Redis, Kafka, Docker, Kubernetes, Grafana Stack 
+- Technologies: mysql, redis, kafka, docker, kubernetes, opentelemtry, grafana stack 

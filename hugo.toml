@@ -16,7 +16,7 @@ minifyOutput = true
 identifier = "home"
 name = "Home"
 url = "/"
-weight = 10
+weight = 1
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]

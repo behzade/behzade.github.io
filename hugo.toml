@@ -18,23 +18,29 @@ name = "Home"
 url = "/"
 weight = 10
 
-[[menu.main]]
-identifier = "blog"
-name = "Blog"
-url = "/blog/"
-weight = 20
-
-[[menu.main]]
-identifier = "about"
-name = "About"
-url = "/about/"
-weight = 30
-
-[[menu.main]]
-identifier = "contact"
-name = "Contact"
-url = "/contact/"
-weight = 40
-
 [outputs]
 home = ["HTML", "RSS", "JSON"]
+
+[params.profileMode]
+enabled = true
+title = "Hi, I'm Behzad."
+subtitle = "I'm a backend developer."
+[[params.profileMode.buttons]]
+name = "About"
+url = "/about"
+
+[[params.profileMode.buttons]]
+name = "Blog"
+url = "/blog"
+
+[[params.socialIcons]]
+name = "twitter"
+url = "https://twitter.com/BehzadEhs"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/behzade/"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/behzade"

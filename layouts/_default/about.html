@@ -1,0 +1,44 @@
+{{ define "main" }}
+<!-- Main Content -->
+<article class="">
+    <header class="header">
+        <h1>{{ .Title | markdownify }}</h1>
+    </header>
+    <div class="about-text">
+        {{ .Content }}
+    </div>
+    <div class="about-experience">
+        <h3>Experience</h3>
+        <ul>
+            {{ range site.Data.about.experience}}
+            <li>
+                {{ .title }}
+                {{ .company }}
+                {{.location }}
+                ({{ .date }})
+            </li>
+            {{ end }}
+        </ul>
+    </div>
+    <div class="about-education">
+        <h3>Education</h3>
+        <ul>
+            {{ range site.Data.about.education}}
+            <li> {{ .title }} , {{ .institute }}, {{.location }}, ({{ .date }})</li>
+            {{ end }}
+        </ul>
+    </div>
+    <div class="about-technologies">
+        <h3>Technologies</h3>
+        {{ range site.Data.about.skills.languages}}
+        <span>{{ . }}</span>
+        {{ end }}
+        {{ range site.Data.about.skills.technologies}}
+        <span>{{ . }}</span>
+        {{ end }}
+    </div>
+    <footer class="text-center">
+        {{ partial "social_icons.html" site.Params.socialIcons }}
+    </footer>
+</article>
+{{ end }}

@@ -5,7 +5,7 @@
         <h1>{{ .Title | markdownify }}</h1>
     </header>
     <div class="about-text">
-        {{ .Content }}
+        {{ site.Data.about.text }}
     </div>
     <div class="about-experience">
         <h3>Experience</h3>
@@ -31,10 +31,10 @@
     <div class="about-technologies">
         <h3>Technologies</h3>
         {{ range site.Data.about.skills.languages}}
-        <span>{{ . }}</span>
+        <span class="about-technology">{{ . }}</span>
         {{ end }}
         {{ range site.Data.about.skills.technologies}}
-        <span>{{ . }}</span>
+        <span class="about-technology">{{ . }}</span>
         {{ end }}
     </div>
     <footer class="text-center">
